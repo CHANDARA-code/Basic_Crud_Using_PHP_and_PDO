@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/gif" sizes="60x60" href="PHP_logo1.png">
+  
+    <title>Login</title>
+    <style>
+      body{
+        background-image:url(https://ona-niptict-group6.netlify.app/image/NIPTICT12.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      label{
+        font-size: 15px;
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="card" style="width:800px;margin: auto;background: rgba(255, 255, 255, 0.5);">
+    <h2 style="text-align: center;">****Login NIPTICT Account****</h2>
+      <img class="card-img-top" src="https://signup.trybooking.com/media/imgs/653488ddd926ab077de00f6d07ada3535e6dc186.png" alt="Card image" style="width:100px;height: 100px;margin: auto;">
+    <div class="container">
+    <form action="login.php" method="POST">
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control"  placeholder="Enter Username" name="username">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+        </div>
+        
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <h3>Or</h3>
+            <a href="index.html" target="_topblank" class=" btn btn-success">New User?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+create datatest;
+use datatest;
+
+create table `user_test`(
+`id` INT(100) AUTO_INCREMENT NOT NULL,
+`username` VARCHAR(255) NOT NULL,
+`gender` VARCHAR(255) NOT NULL,
+`DOB` DATE NOT NULL,
+`class` VARCHAR(23) NOT NULL,
+`email` VARCHAR(255) NOT NULL,
+`password` VARCHAR(1000) NOT NULL,
+`image` VARCHAR(1000) NOT NULL
+PRIMARY KEY(`id`)
+)ENGINE = InnoDB DEFAULT CHARSET=latin1;
+
